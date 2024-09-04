@@ -1,0 +1,226 @@
+/* Geral */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #000099;
+    border-radius: 5px;
+    color: #f0f0f0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0000FF;
+    font-size: 36px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0000FF;
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+form input[type="submit"], .btn-submit {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover, .btn-submit:hover {
+    background-color: #000099;
+}
+
+/* Estilos para a tabela */
+.socio-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.socio-table th, .socio-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.socio-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.socio-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.socio-table tr:hover {
+    background-color: #f0f0ff;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para o botão de remoção */
+.btn-remove {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-remove:hover {
+    background-color: #c82333;
+}
+
+/* Estilo para a notícia */
+.noticia h2 {
+    color: #0000FF;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #0000FF;
+    padding-bottom: 10px;
+}
+
+.noticia p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Página Sobre */
+.estadio-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.estadio-img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.historia-section {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.historia-section h2 {
+    color: #0000FF;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.historia-section p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Página de Contato */
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.success-message {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e0f7e0;
+    border: 1px solid #a0dca0;
+    border-radius: 8px;
+    color: #336633;
+    text-align: center;
+}
+
+.btn-logout {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+    font: inherit;
+    transition: color 0.3s ease;
+}
+
+.btn-logout:hover {
+    color: #ccc;
+}
